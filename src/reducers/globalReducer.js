@@ -1,8 +1,7 @@
 import { TEST_ACTION, ASYNC_TEST, AWAIT_TEST, RESULTS_TEST} from '../actions/types';
 
 const initialState = {
-  ROOT_URL: 'https://qaapi.thevirtualwarehouse.co.uk/api/',
-  test: '',
+
 };
 
 export default function(state = initialState, action) {
